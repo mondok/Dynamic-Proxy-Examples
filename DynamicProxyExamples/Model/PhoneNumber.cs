@@ -5,7 +5,10 @@ using System.Text;
 
 namespace DynamicProxyExamples.Model
 {
-    class PhoneNumber
+    public class PhoneNumber
     {
+        public virtual string Number { get; set; }
+
+        public virtual string NumberType { get; set; }
     }
 }
